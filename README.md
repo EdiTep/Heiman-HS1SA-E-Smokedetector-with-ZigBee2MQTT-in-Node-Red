@@ -106,6 +106,7 @@ The email report includes a clear HTML table with battery status, smoke status, 
 
 - `README.md` - This documentation.
 - `flows/heiman-hs1sa-e-flow.json` - The exported Node-RED flow (the JSON array you need to import).
+- `
 
 ## Contributing
 
