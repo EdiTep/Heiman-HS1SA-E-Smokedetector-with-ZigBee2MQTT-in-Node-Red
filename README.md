@@ -40,7 +40,8 @@ Integrate the **Heiman HS1SA-E Zigbee smoke detector** into your smart home usin
     -   Accounts (optional): SMTP server, [Pushover](https://pushover.net/), [ntfy](https://ntfy.sh/) (or self-hosted)
 
 <p align="center">
-  <img src="pictures/22024-04-19-edi-teppert-com-Node-Red-Dashboard-2.0-Rauchmelder-1-785x1024.jpg" alt="Node-Red Dashboard 2.0 Rauchmelder" width="800"/>
+  <img src="pictures/2026-04-19-edi-teppert-com-Node-Red-ZigBee2MQTT-Rauchmelder-1024x811.jpg" alt="Node-Red Dashboard 2.0 Rauchmelder" width="400"/>
+  <img src="pictures/2026-04-19-edi-teppert-com-Node-Red-Dashboard-2.0-Rauchmelder-1-785x1024.jpg" alt="Node-Red Dashboard 2.0 Rauchmelder" width="400"/>
 </p>
 
 ## Pairing the Heiman HS1SA-E with Zigbee2MQTT
