@@ -62,6 +62,56 @@ Copy the entire JSON array from [`flows/heiman-hs1sa-e-flow.json`](./flows/heima
 > -   **ntfy**: Topic URL (e.g., `https://ntfy.sh/your-secret-topic`).
 > -   **Device IDs & Friendly Names**: Replace the example IDs/names with those from your own Zigbee2MQTT devices.
 
+## Configuration Steps
+
+### 1. Configure Zigbee2MQTT Nodes
+
+- Edit the `zigbee2mqtt-server` configuration node. Set your MQTT broker address, port, and credentials.
+- Replace the `friendly_name` and `device_id` in the `zigbee2mqtt-get` and `zigbee2mqtt-in` nodes with those of **your** Heiman detector.
+- Do the same for the `zigbee2mqtt-out` node for your Zigbee bulb.
+
+### 2. Set Up Notifications
+
+- **Email**: Edit the `e-mail` node. Enter your SMTP server details, authentication, and recipient address.
+- **Pushover**: Double-click the `pushover api` nodes. Select or create a `pushover-keys` configuration. Add your Pushover application key and user key.
+- **ntfy**: In the function node `Statusbericht formatieren`, replace the URL `https://ntfy.sh/SIDf9wci139aaFXG-Rauchmelder` with your own ntfy topic URL.
+
+### 3. Customize (Optional)
+
+- **Dashboard**: The flow includes a Node-RED Dashboard group (`Keller Werkstatt`). You can modify the UI elements (gauges, text nodes) or remove them if not needed.
+- **Alarm Duration**: In the `30s Blinksteuerung` (trigger) node, change the `duration` (currently 30 seconds).
+- **Bulb Behavior**: The blinking bulb turns red. You can change the color or brightness in the function nodes `Blink-Modus vorbereiten` and `Toggle-Blinken`.
+
+## Example Status Report (Email)
+
+The email report includes a clear HTML table with battery status, smoke status, test mode, and signal quality. A low battery (<20%) adds a red warning header.
+
+## Troubleshooting
+
+- **Device not pairing / incomplete data**: As mentioned, keep pressing the reset button every 2-3 seconds during the Zigbee2MQTT interview.
+- **No updates from the detector**: The device wakes up only periodically (e.g., for battery reports) or on alarm. Use a manual test button (`zigbee2mqtt-get`) if you need an immediate status.
+- **Alarm not triggering**: Check the `zigbee2mqtt-in` node. The attribute name is `smoke` (boolean). Ensure your detector's MQTT message contains this field.
+- **Bulb does not restore previous state**: The flow stores a mock previous state. To make it dynamic, you would need to query the bulb's current state via `zigbee2mqtt-get` before the alarm.
+
+## Files in this Repository
+
+- `README.md` - This documentation.
+- `flows/heiman-hs1sa-e-flow.json` - The exported Node-RED flow (the JSON array you need to import).
+
+## Contributing
+
+Found a bug or have an idea for improvement? Feel free to open an issue or submit a pull request. The flow is version 0.8 – there's room for enhancements (e.g., integrating a real acoustic alarm, supporting multiple detectors).
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+Original blog post (German): [Heiman HS1SA-E Rauchmelder mit ZigBee2MQTT in Node-Red](https://nodered.org](https://edi.teppert.com/heiman-hs1sa-e-rauchmelder-mit-zigbee2mqtt-in-node-red)/)
+
+Author: Edi Teppert
+
+
+
 ## Flow Structure (Simplified)
 
 ```text
