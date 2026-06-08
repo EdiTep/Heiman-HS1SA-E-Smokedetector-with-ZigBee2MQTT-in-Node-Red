@@ -155,6 +155,17 @@ The email report includes a clear HTML table with battery status, smoke status, 
 
 Found a bug or have an idea for improvement? Feel free to open an issue or submit a pull request. The flow is version 0.8 – there's room for enhancements (e.g., integrating a real acoustic alarm, supporting multiple detectors).
 
+## 📫 Contact & Collaboration
+
+I'm excited about **exchange, feedback, and collaboration** – especially on topics like:
+
+- Energy management (PV, battery SOC, heat pumps)
+- Node-RED flow optimization
+- Integration of proprietary systems (e.g., Tahoma)
+
+You can best reach me via **email** (provided on my profile).
+
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
