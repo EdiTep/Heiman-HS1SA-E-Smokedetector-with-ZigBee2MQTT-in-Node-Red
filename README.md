@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="pictures/2026-04-19-edi-teppert-com-Heimann-Rauchmelder-Titel-2048x820.jpg" alt="Rauchmelder Titel" width="800"/>
+  <img src="pictures/Edis-Blog-IoT-Logo.png" alt="Logo edi.teppert.com Blog" width="600"/>
 </p>
 
 # Heiman HS1SA-E Smoke Detector with Zigbee2MQTT and Node-RED
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node-RED](https://img.shields.io/badge/Node--RED-3.0+-red.svg)](https://nodered.org/)
+
+<p align="center">
+  <img src="pictures/2026-04-19-edi-teppert-com-Heimann-Rauchmelder-Titel-2048x820.jpg" alt="Rauchmelder Titel" width="800"/>
+</p>
 
 Integrate the **Heiman HS1SA-E Zigbee smoke detector** into your smart home using Zigbee2MQTT and Node-RED. This project provides a complete Node-RED flow for monitoring the detector, sending alerts via **Mail**, **ntfy**, and **Pushover**, and triggering a visual alarm (e.g., a blinking Zigbee bulb) when smoke is detected.
 
