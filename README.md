@@ -118,19 +118,6 @@ The email report includes a clear HTML table with battery status, smoke status, 
 - `pictures/2026-04-19-edi-teppert-com-Node-Red-ZigBee2MQTT-Rauchmelder-1024x811` Picture in this Repo
 - `pictures/Edis-Blog-IoT-Logo.png` Picture in this Repo
 
-## Contributing
-
-Found a bug or have an idea for improvement? Feel free to open an issue or submit a pull request. The flow is version 0.8 – there's room for enhancements (e.g., integrating a real acoustic alarm, supporting multiple detectors).
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-Original blog post (German): [Heiman HS1SA-E Rauchmelder mit ZigBee2MQTT in Node-Red](https://edi.teppert.com/heiman-hs1sa-e-rauchmelder-mit-zigbee2mqtt-in-node-red)
-
-Author: Edi Teppert
-
-
 
 ## Flow Structure (Simplified)
 
@@ -153,4 +140,18 @@ Author: Edi Teppert
     ▼
 [Alarm Switch] (if smoke == true)
     ├──► [Pushover High-Priority Alert]
-    └──► [30s Blink Trigger] ──► [Blink Candle Bulb (Red)]
+    └──► [30s Blink Trigger] ──► [Blink Candle Bulb (Red)]  
+```
+
+## Contributing
+
+Found a bug or have an idea for improvement? Feel free to open an issue or submit a pull request. The flow is version 0.8 – there's room for enhancements (e.g., integrating a real acoustic alarm, supporting multiple detectors).
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+Original blog post (German): [Heiman HS1SA-E Rauchmelder mit ZigBee2MQTT in Node-Red](https://edi.teppert.com/heiman-hs1sa-e-rauchmelder-mit-zigbee2mqtt-in-node-red)
+
+Author: Edi Teppert
+
