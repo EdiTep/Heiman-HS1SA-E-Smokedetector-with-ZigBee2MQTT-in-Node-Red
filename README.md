@@ -126,7 +126,7 @@ Found a bug or have an idea for improvement? Feel free to open an issue or submi
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-Original blog post (German): [Heiman HS1SA-E Rauchmelder mit ZigBee2MQTT in Node-Red](https://nodered.org](https://edi.teppert.com/heiman-hs1sa-e-rauchmelder-mit-zigbee2mqtt-in-node-red)/)
+Original blog post (German): [Heiman HS1SA-E Rauchmelder mit ZigBee2MQTT in Node-Red](https://edi.teppert.com/heiman-hs1sa-e-rauchmelder-mit-zigbee2mqtt-in-node-red)
 
 Author: Edi Teppert
 
