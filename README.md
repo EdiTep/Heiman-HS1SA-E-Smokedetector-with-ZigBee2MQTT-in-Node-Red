@@ -6,9 +6,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node-RED](https://img.shields.io/badge/Node--RED-3.0+-red.svg)](https://nodered.org/)
-[![ntfy](https://img.shields.io/badge/ntfy-push-blue.svg)](https://ntfy.sh/)
-[![Zigbee2MQTT](https://img.shields.io/badge/Zigbee2MQTT-1.30+-green.svg)](https://zigbee2mqtt.io/)
-[![Pushover](https://img.shields.io/badge/Pushover-API-orange.svg)](https://pushover.net/)
+[![Powered by ntfy](https://img.shields.io/badge/Powered_by-ntfy-25B864.svg?logo=rocket&logoColor=white)](https://ntfy.sh/)
+[![Powered by Zigbee2MQTT](https://img.shields.io/badge/Powered_by-Zigbee2MQTT-EE6C4D.svg?logo=zigbee&logoColor=white)](https://zigbee2mqtt.io/)
+[![Powered by Pushover](https://img.shields.io/badge/Powered_by-Pushover-0088FF.svg?logo=android&logoColor=white)](https://pushover.net/)
 
 <p align="center">
   <img src="pictures/2026-04-19-edi-teppert-com-Heimann-Rauchmelder-Titel-2048x820.jpg" alt="Rauchmelder Titel" width="800"/>
