@@ -83,7 +83,7 @@ Copy the entire JSON array from [`flows/heiman-hs1sa-e-flow.json`](./flows/heima
 
 - **Email**: Edit the `e-mail` node. Enter your SMTP server details, authentication, and recipient address.
 - **Pushover**: Double-click the `pushover api` nodes. Select or create a `pushover-keys` configuration. Add your Pushover application key and user key.
-- **ntfy**: In the function node `Statusbericht formatieren`, replace the URL `https://ntfy.sh/SIDf9wci139aaFXG-Rauchmelder` with your own ntfy topic URL.
+- **ntfy**: In the function node `Statusbericht formatieren`, replace the URL `https://ntfy.sh/your-secret-theme-in-ntfy` with your own ntfy topic URL.
 
 ### 3. Customize (Optional)
 
