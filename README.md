@@ -2,6 +2,7 @@
   <img src="pictures/Edis-Blog-IoT-Logo.png" alt="Logo edi.teppert.com Blog" width="600"/>
 </p>
 
+
 # Heiman HS1SA-E Smoke Detector with Zigbee2MQTT and Node-RED
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
