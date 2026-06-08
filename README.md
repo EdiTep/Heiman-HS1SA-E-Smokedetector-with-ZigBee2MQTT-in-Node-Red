@@ -110,7 +110,10 @@ The email report includes a clear HTML table with battery status, smoke status, 
 
 - `README.md` - This documentation.
 - `flows/heiman-hs1sa-e-flow.json` - The exported Node-RED flow (the JSON array you need to import).
-- `
+- `pictures/2026-04-19-edi-teppert-com-Heimann-Rauchmelder-Titel-2048x820.jpg` Picture in this Repo
+- `pictures/2026-04-19-edi-teppert-com-Node-Red-Dashboard-2.0-Rauchmelder-1-785x1024` Picture in this Repo
+- `pictures/2026-04-19-edi-teppert-com-Node-Red-ZigBee2MQTT-Rauchmelder-1024x811` Picture in this Repo
+- `pictures/Edis-Blog-IoT-Logo.png` Picture in this Repo
 
 ## Contributing
 
