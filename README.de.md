@@ -4,7 +4,7 @@
 
 # Heiman HS1SA-E Rauchmelder mit Zigbee2MQTT und Node-RED
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Node-RED](https://img.shields.io/badge/Node--RED-3.0+-red.svg)](https://nodered.org/)
 [![Powered by ntfy](https://img.shields.io/badge/Powered_by-ntfy-25B864.svg?logo=rocket&logoColor=white)](https://ntfy.sh/)
 [![Powered by Zigbee2MQTT](https://img.shields.io/badge/Powered_by-Zigbee2MQTT-EE6C4D.svg?logo=zigbee&logoColor=white)](https://zigbee2mqtt.io/)
